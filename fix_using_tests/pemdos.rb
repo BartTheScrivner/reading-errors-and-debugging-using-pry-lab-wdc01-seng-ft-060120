@@ -7,8 +7,9 @@ def snake_it_up(string)
     while count < 10 do
       new += "s"
       count += 1
-  else
+    end
     new += string
-    new
+  else
+    string
   end
 end
